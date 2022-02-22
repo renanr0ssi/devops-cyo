@@ -25,7 +25,7 @@ jobs:
           name: build-result
           path: build-result.txt
       - name: use of artifact created
-        run: ls build-result.txt
+        run: ls build-result.txt 
 
 
 
