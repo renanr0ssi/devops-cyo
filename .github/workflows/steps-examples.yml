@@ -19,7 +19,7 @@ jobs:
     name: Example of custom action
     steps:
       - id: step-caller
-        uses: "./devops-cyo"
+        uses: "./"
         with:
           the-caller: 'Myself'
       - run: echo random-number ${{ steps.step-caller.outputs.random-number }}
