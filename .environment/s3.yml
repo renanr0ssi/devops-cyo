@@ -10,6 +10,6 @@
 
     - name: copy files
       community.aws.s3_sync:
-        bucket: devops-cyo-renan
+        bucket: devops-cyo-renan2
         file_root: frontend/out
         permission: public-read
